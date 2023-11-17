@@ -1,3 +1,17 @@
+# Penguins Playoff Analysis
+-------
+## Examining the influence of the HBK Line on the 2016 and 2017 Stanley Cup Wins
+The Pittsburgh Penguins have won the Stanley Cup a total of five times: 1991, 1992, 2009, 2016, and 2017. Fans speculate that the vital force behind the most recent back-to-back cup wins was not superstars Sidney Crosby or Evgeni Malkin, but rather the third line: Phil Kessel, Carl Hagelin, and Nick Bonino. From their last initials, this line was lovingly referred to as the ‘HBK-line’.
+
+But is it true? And if these were the most instrumental players, why did Sidney Crosby still win the Conn Smythe trophy (the MVP for the playoffs) in both 2016 and 2017? Did Phil Kessel deserve it instead, at least for one of those years?
+
+These two back-to-back wins were an exciting time for Penguins fans. I want to take a deeper dive into those playoff seasons and what made them special. Particularly, what was the impact of the HBK line during those games? 
+
+Please see the directions below to observe my findings and/or follow along. 
+
+For those who don’t know hockey, check out this helpful data dictionary. 
+
+
 ## Getting Started:
 
 1. You will need a platform to run .ipynb files.
