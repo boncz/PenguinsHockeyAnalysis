@@ -1,6 +1,6 @@
 # Penguins Playoff Analysis
 ## Examining the influence of the HBK Line on the 2016 and 2017 Stanley Cup Wins
----
+
 The Pittsburgh Penguins have won the Stanley Cup a total of five times: 1991, 1992, 2009, 2016, and 2017. Fans speculate that the vital force behind the most recent back-to-back cup wins was not superstars Sidney Crosby or Evgeni Malkin, but rather the third line: Phil Kessel, Carl Hagelin, and Nick Bonino. From their last initials, this line was lovingly referred to as the ‘HBK-line’.
 
 But is it true? And if these were the most instrumental players, why did Sidney Crosby still win the Conn Smythe trophy (the MVP for the playoffs) in both 2016 and 2017? Did Phil Kessel deserve it instead, at least for one of those years?
@@ -42,12 +42,20 @@ Virtual Environment Commands
 
 1. Run the [create_SQL_db](/create_sql_db.ipynb) notebook to unzip the data files on your computer. 
 1. You now have a new file named NHL_data.db in your project directory, this will be used with future SQL queries in the main project notebook.
-1. For more information regarding how I pre-trimmed one of the files, check out [trim_game_plays](https://github.com/boncz/PenguinsHockeyAnalysis/blob/main/trim_game_plays.ipynb)
+1. For more information regarding how I pre-trimmed one of the files, check out [trim_game_plays](/trim_game_plays.ipynb)
 
 ## Run the analysis on your own
 
-1. The main analysis is conducted in the notebook [PensPlayoffAnalysis](https://github.com/boncz/PenguinsHockeyAnalysis/blob/main/PensPlayoffAnalysis.ipynb). 
+The main analysis is conducted in the notebook [PensPlayoffAnalysis](/PensPlayoffAnalysis.ipynb). Here you will be able to follow along as we clean, organize, and analyze the data. A few key points:
+* SQL queries are used to easily join and pull more complex combinations of data from different tables. 
+* After the initial query, pandas DataFrames are utilized to further manipulate and visualize the data. 
+* The primary libraries for visualization used are Seaborn and MatPlotLib. 
 
+---
+
+### So What Next?
+
+Ideally, this project will be extended in the future to look at the third line player statistics for other teams during their Stanley Cup winning years. Is there something they may all have in common? Does a team have to be "deep" (in other words, have extremely talented players on every line) to win, or can a few superstars carry a team to success? 
 
 
 
