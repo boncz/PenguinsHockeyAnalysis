@@ -1,4 +1,3 @@
-import glob
 from zipfile import ZipFile
 import os
 from pathlib import Path
