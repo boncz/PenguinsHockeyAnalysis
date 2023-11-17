@@ -1,4 +1,7 @@
 # Penguins Playoff Analysis
+<img src="https://i.pinimg.com/originals/ec/82/5b/ec825b288a1abea2a911e1f5f4fa1c36.jpg" width="1000" height="500">
+
+
 ## Examining the influence of the HBK Line on the 2016 and 2017 Stanley Cup Wins
 
 The Pittsburgh Penguins have won the Stanley Cup a total of five times: 1991, 1992, 2009, 2016, and 2017. Fans speculate that the vital force behind the most recent back-to-back cup wins was not superstars Sidney Crosby or Evgeni Malkin, but rather the third line: Phil Kessel, Carl Hagelin, and Nick Bonino. From their last initials, this line was lovingly referred to as the ‘HBK-line’.
@@ -53,10 +56,12 @@ The main analysis is conducted in the notebook [PensPlayoffAnalysis](/PensPlayof
 
 ---
 
-### So What Next?
+### So, What Next?
 
 Ideally, this project will be extended in the future to look at the third line player statistics for other teams during their Stanley Cup winning years. Is there something they may all have in common? Does a team have to be "deep" (in other words, have extremely talented players on every line) to win, or can a few superstars carry a team to success? 
 
+
+<img src="https://pbs.twimg.com/media/CodxW7HWIAAWmU5?format=jpg&name=4096x4096" width="300" height="200">
 
 
 
