@@ -47,7 +47,8 @@ SELECT skater_stats.*, team_info.abbreviation
 FROM (
     SELECT game_skater_stats.*,
        player_info.firstName,
-       player_info.lastName
+       player_info.lastName,
+       player_info.primaryPosition
 FROM game_skater_stats
 JOIN player_info ON game_skater_stats.player_id = player_info.player_id) skater_stats
 
