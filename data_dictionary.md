@@ -125,29 +125,15 @@ The NHL Stanley Cup Playoffs are a thrilling spectacle, combining skill, strateg
 
 ## Advanced Statistics
 
-### Shots on Goal (SOG)
 
-| SOG         | Description |
-| ----------- | ----------- |
-| The number of shots taken by a player that reach the opposing team's net. |
 
-### Blocked Shots (BLK)
+| Term                  | Description |
+|-----------------------| ----------- |
+| Shots on Goal (SOG)   | The number of shots taken by a player that reach the opposing team's net. |
+| Blocked Shots (BLK)   | The number of shots blocked by opposing players. |
+| Missed Shots (MISS)   | The number of shots that miss the net. |
+| Penalty Minutes (PIM) | The total minutes a player has spent in the penalty box. |
 
-| BLK         | Description |
-| ----------- | ----------- |
-| The number of shots blocked by opposing players. |
-
-### Missed Shots (MISS)
-
-| MISS        | Description |
-| ----------- | ----------- |
-| The number of shots that miss the net. |
-
-### Penalty Minutes (PIM)
-
-| PIM         | Description |
-| ----------- | ----------- |
-| The total minutes a player has spent in the penalty box. |
 
 ### Additional Game Situations
 
@@ -165,46 +151,47 @@ The NHL Stanley Cup Playoffs are a thrilling spectacle, combining skill, strateg
 
 ## Stat Term Dictionary
 
-### Player Information
 
-| Rk          | Rank |
-| ----------- | ---- |
-| Age         | As of Jan. 31 of the season in question. Or as of the date of the game listed. Age is Years-Days. |
-| Ice Time    | -    |
-| GP          | Games Played |
 
-### Corsi (Even Strength)
+| Term     | Player Information                                                                             |
+|----------|------------------------------------------------------------------------------------------------|
+| Age      | As of Jan. 31 of the season in question. Or as of the date of the game listed. Age is Years-Days. |
+| Ice Time | Time spent on ice during the game                                                              |
+| GP       | Games Played                                                                                   |
 
-| CF          | Corsi For at Even Strength (Shots + Blocks + Misses) |
-| ----------- | ----------------------------------------------------- |
-| CA          | Corsi Against at Even Strength (Shots + Blocks + Misses) |
-| CF%         | Corsi For % at Even Strength (CF / (CF + CA))          |
-| CF% rel     | Relative Corsi For % (CF% - CFoff%)                   |
-| -           | On-Ice Corsi For % - Off-Ice Corsi For %              |
+| CORSI   | (Even Strength)                                          |
+|---------|----------------------------------------------------------|
+| CF      | Corsi For at Even Strength (Shots + Blocks + Misses)     |
+| CA      | Corsi Against at Even Strength (Shots + Blocks + Misses) |
+| CF%     | Corsi For % at Even Strength (CF / (CF + CA))            |
+| CF% rel | Relative Corsi For % (CF% - CFoff%)                      |
+| -       | On-Ice Corsi For % - Off-Ice Corsi For %                 |
 
-### Fenwick (Even Strength)
 
-| FF          | Fenwick For at Even Strength (Shots + Misses) |
-| ----------- | ---------------------------------------------- |
-| FA          | Fenwick Against at Even Strength (Shots + Misses) |
-| FF%         | Fenwick For % at Even Strength (FF / (FF + FA))    |
-| FF% rel     | Relative Fenwick For % (FF% - FFoff%)             |
-| -           | On-Ice Fenwick For % - Off-Ice Fenwick For %       |
 
-### PDO (Even Strength)
+| Fenwick | (Even Strength)                                   |
+|---------|---------------------------------------------------|
+| FF      | Fenwick For at Even Strength (Shots + Misses)     |
+| FA      | Fenwick Against at Even Strength (Shots + Misses) |
+| FF%     | Fenwick For % at Even Strength (FF / (FF + FA))   |
+| FF% rel | Relative Fenwick For % (FF% - FFoff%)             |
+| -       | On-Ice Fenwick For % - Off-Ice Fenwick For %      |
 
-| oiSH%       | Team On-Ice Shooting Percentage |
-| ----------- | -------------------------------- |
-| oiSV%       | Team On-Ice Save Percentage     |
-| PDO         | PDO (Shooting % + Save %)       |
+
+| PDO   | (Even Strength)                 |
+|-------|---------------------------------|
+| oiSH% | Team On-Ice Shooting Percentage |
+| oiSV% | Team On-Ice Save Percentage     |
+| PDO   | PDO (Shooting % + Save %)       |
 
 ### Zone Starts (Even Strength)
 
-| oZS%        | Offensive Zone Start % (Offensive Zone Faceoffs / (Offensive Zone Faceoffs + Defensive Zone Faceoffs)) |
-| ----------- | ------------------------------------------------------------------------------------------------------------- |
-| dZS%        | Defensive Zone Start % (Defensive Zone Faceoffs / (Offensive Zone Faceoffs + Defensive Zone Faceoffs)) |
-| TOI/60      | Time on Ice per 60 minutes in All Situations                                                               |
-| TOI(EV)     | Time on Ice per 60 minutes at Even Strength                                                                 |
+| Term    | Description                                                                                            |
+|---------|--------------------------------------------------------------------------------------------------------|
+| oZS%    | Offensive Zone Start % (Offensive Zone Faceoffs / (Offensive Zone Faceoffs + Defensive Zone Faceoffs)) |
+| dZS%    | Defensive Zone Start % (Defensive Zone Faceoffs / (Offensive Zone Faceoffs + Defensive Zone Faceoffs)) |
+| TOI/60  | Time on Ice per 60 minutes in All Situations                                                           |
+| TOI(EV) | Time on Ice per 60 minutes at Even Strength                                                            |
 
 ### Takeaways and Giveaways
 
@@ -219,7 +206,7 @@ The NHL Stanley Cup Playoffs are a thrilling spectacle, combining skill, strateg
 | SAtt.       | Total shots attempted in all situations                                                                                                                                                                                                    |
 | Thru%       | Percentage of shots taken that go on net                                                                                                                                                                                                  |
 
-### Team Metrics
+## Team Metrics
 
 #### Team Corsi (CF, CA, CF%)
 
