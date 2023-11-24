@@ -18,6 +18,8 @@ Now, armed with an eagerness to understand the intricacies of hockey and spurred
 ## Objectives and Scope
 My primary goal is to delve into the specifics of the 2016 and 2017 playoff seasons, meticulously examining the contributions of the HBK Line. I seek to address pressing questions: Were they the unsung heroes of the team, and if so, why did Sidney Crosby consistently secure the Conn Smythe trophy? This exploration is not just about statistics; it's a journey into the dynamics of a championship team and the narratives that unfold during pivotal moments.
 
+[Here is everything you need to know about hockey to understand the project.](data_dictionary.md)
+
 ## Key Questions
 
 
