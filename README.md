@@ -12,8 +12,9 @@ These two back-to-back wins were an exciting time for Penguins fans. I want to t
 
 Please see the directions below to observe my findings and/or follow along. 
 
-For those who don’t know hockey, check out this helpful data dictionary. 
+For those who don’t know hockey, [check out this helpful data dictionary](data_dictionary.md). 
 
+advanced statistic data and playoff rosters pulled from : https://www.hockey-reference.com/ 
 
 ## Getting Started:
 
