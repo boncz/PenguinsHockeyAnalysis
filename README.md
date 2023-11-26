@@ -27,7 +27,7 @@ In this beginner-friendly exploration of the Pittsburgh Penguins' 2016 and 2017 
 
 ### 1. Unraveling Player Performance:
    - **How did individual players contribute across various statistical measures?**
-     - Dive into CORSI, fenwick, shots, penalty differentials, faceoff percentages, and more to dissect the nuances of player performance on a game-by-game basis.
+     - Dive into CORSI, fenwick, shots, penalty differentials, faceoff percentages, and more to dissect the nuances of player performance.
 
 ### 2. HBK Line Impact:
    - **Did the HBK Line truly stand out statistically during the playoffs?**
@@ -53,7 +53,7 @@ This project aims to provide a comprehensive yet beginner-friendly exploration, 
 
 
 ## The Conn Smythe Controversy
-Despite the HBK Line's purported impact, Sidney Crosby clinched the Conn Smythe trophy in both 2016 and 2017. This sparks a compelling debate: Did Crosby rightfully earn the MVP, or was Kessel unjustly overlooked? We aim to dissect the intricacies of this controversy through a meticulous analysis of player performances.
+Despite the HBK Line's purported impact, Sidney Crosby clinched the Conn Smythe trophy in both 2016 and 2017. This sparks a compelling debate: Did Crosby rightfully earn the MVP, or was Kessel unjustly overlooked? I aim to dissect the intricacies of this controversy through a meticulous analysis of player performances.
 
 ## Data Sources
 
@@ -120,12 +120,12 @@ As I meticulously examined the playoff seasons, several defining moments showcas
 *Insert Visuals & Key Findings Here*
 
 ### Comparative Analysis: HBK Line vs. Crosby and Malkin
-A crucial aspect of our investigation was comparing the performance of the HBK Line with that of Sidney Crosby and Evgeni Malkin. Here's a glimpse of how their statistics stacked up against each other:
+A crucial aspect of this investigation was comparing the performance of the HBK Line with that of Sidney Crosby and Evgeni Malkin. Here's a glimpse of how their statistics stacked up against each other:
 
 *Insert Visuals & Key Findings Here*
 
 ### Statistical Basis for HBK Line's Impact
-Delving into advanced statistics, we uncovered a compelling statistical basis supporting the claims that Kessel, Hagelin, and Bonino were the driving force behind the Penguins' victories:
+Delving into advanced statistics, I uncovered a compelling statistical basis supporting the claims that Kessel, Hagelin, and Bonino were the driving force behind the Penguins' victories:
 
 *Insert Visuals & Key Findings Here*
 
