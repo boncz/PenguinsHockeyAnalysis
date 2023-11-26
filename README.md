@@ -6,7 +6,7 @@
 
 # Exploring the Influence of the HBK Line on the Pittsburgh Penguins' 2016 and 2017 Stanley Cup Wins
 ## Motivation
-As a newcomer to the world of hockey and a solo enthusiast of the Pittsburgh Penguins, the team's storied history has left an indelible mark. While the Penguins have claimed the Stanley Cup only five times in their history (1991, 1992, 2009, 2016, and 2017), the recent back-to-back victories in 2016 and 2017 are particularly intriguing.
+As a newcomer to the world of hockey and enthusiast of the Pittsburgh Penguins, the team's storied history has left an indelible mark. While the Penguins have claimed the Stanley Cup only five times in their history (1991, 1992, 2009, 2016, and 2017), the recent back-to-back victories in 2016 and 2017 are particularly intriguing.
 
 Given my limited exposure to the sport, I've often heard passionate debates among fans about the driving force behind these last two victories. Surprisingly, it wasn't the usual suspects like Sidney Crosby or Evgeni Malkin that took center stage. Instead, rumors circulate that a less-heralded trio—Phil Kessel, Carl Hagelin, and Nick Bonino, known as the 'HBK Line'—was the unsung hero of these championships.
 
