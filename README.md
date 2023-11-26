@@ -121,7 +121,7 @@ A crucial aspect of this investigation was comparing the performance of the HBK 
 <img src="ReadMeImages/PercentTotalGoals2016.png" alt="Percent of Player Goals vs Total 2016" width="800" />
 <img src="ReadMeImages/PlayerPlusMinus2016.jpg" alt="Player plus minus 2016" width="800" />
 <img src="ReadMeImages/goalsPlusMinus2016.png" alt="Goals vs plus minus 2016" width="800" />
-<img src="ReadMeImages/CorsiFenwickPlayers2016.png" alt="Corsi Fenwick 2016" width="800" />
+<img src="ReadMeImages/CorsiFenwick2016.png" alt="Corsi Fenwick 2016" width="800" />
 
 ### Phil Kessel vs. Sidney Crosby : Who deserved the Conn Smythe?
 All of my available statistics pointed towards Phill Kessel being the stronger presence during the 2016 and 2017 Stanley Cup Playoffs.
