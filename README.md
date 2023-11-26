@@ -118,10 +118,10 @@ As I meticulously examined the playoff seasons, several defining moments showcas
 
 ### Comparative Analysis: HBK Line
 A crucial aspect of this investigation was comparing the performance of the HBK Line with the team as a whole. Here's a glimpse of how their statistics stacked up:
-<img src="readMeImages/PercentTotalGoals2016.png" alt="Percent of Player Goals vs Total 2016" width="800" />
-<img src="readMeImages/PlayerPlusMinus2016.jpg" alt="Player plus minus 2016" width="800" />
-<img src="readMeImages/goalsPlusMinus2016.png" alt="Goals vs plus minus 2016" width="800" />
-<img src="readMeImages/CorsiFenwickPlayers2016.png" alt="Corsi Fenwick 2016" width="800" />
+<img src="ReadMeImages/PercentTotalGoals2016.png" alt="Percent of Player Goals vs Total 2016" width="800" />
+<img src="ReadMeImages/PlayerPlusMinus2016.jpg" alt="Player plus minus 2016" width="800" />
+<img src="ReadMeImages/goalsPlusMinus2016.png" alt="Goals vs plus minus 2016" width="800" />
+<img src="ReadMeImages/CorsiFenwickPlayers2016.png" alt="Corsi Fenwick 2016" width="800" />
 
 ### Phil Kessel vs. Sidney Crosby : Who deserved the Conn Smythe?
 All of my available statistics pointed towards Phill Kessel being the stronger presence during the 2016 and 2017 Stanley Cup Playoffs.
@@ -165,4 +165,3 @@ Let's drop the puck and dive into the fascinating world of the HBK Line and the 
 
 <img src="ReadMeImages/pens_logo.png" alt="pittsburgh penguins logo" width="200" />
 
-![]()
