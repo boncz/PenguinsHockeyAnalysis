@@ -113,21 +113,25 @@ To replicate our analysis, follow these steps:
 
 ## Key Findings and Visual Insights
 
-
 ### Defining Moments of the HBK Line
 As I meticulously examined the playoff seasons, several defining moments showcased the prowess of the HBK Line. Let's take a closer look at these key instances:
 
-*Insert Visuals & Key Findings Here*
+### Comparative Analysis: HBK Line
+A crucial aspect of this investigation was comparing the performance of the HBK Line with the team as a whole. Here's a glimpse of how their statistics stacked up:
+<img src="readMeImages/PercentTotalGoals2016.png" alt="Percent of Player Goals vs Total 2016" width="800" />
+<img src="readMeImages/PlayerPlusMinus2016.jpg" alt="Player plus minus 2016" width="800" />
+<img src="readMeImages/goalsPlusMinus2016.png" alt="Goals vs plus minus 2016" width="800" />
+<img src="readMeImages/CorsiFenwickPlayers2016.png" alt="Corsi Fenwick 2016" width="800" />
 
-### Comparative Analysis: HBK Line vs. Crosby and Malkin
-A crucial aspect of this investigation was comparing the performance of the HBK Line with that of Sidney Crosby and Evgeni Malkin. Here's a glimpse of how their statistics stacked up against each other:
+### Phil Kessel vs. Sidney Crosby : Who deserved the Conn Smythe?
+All of my available statistics pointed towards Phill Kessel being the stronger presence during the 2016 and 2017 Stanley Cup Playoffs.
 
-*Insert Visuals & Key Findings Here*
+[add more here, plus viz]
 
-### Statistical Basis for HBK Line's Impact
-Delving into advanced statistics, I uncovered a compelling statistical basis supporting the claims that Kessel, Hagelin, and Bonino were the driving force behind the Penguins' victories:
 
-*Insert Visuals & Key Findings Here*
+
+
+
 
 ## Conclusion
 
@@ -159,5 +163,6 @@ Let's drop the puck and dive into the fascinating world of the HBK Line and the 
 
 
 
+<img src="ReadMeImages/pens_logo.png" alt="pittsburgh penguins logo" width="200" />
 
-
+![]()
