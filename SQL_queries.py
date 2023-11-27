@@ -42,7 +42,7 @@ WHERE game.type = 'P'
 
 
 
-skater_stats_query = ('''
+skater_stats_2016_query = ('''
 SELECT skater_stats.*, team_info.abbreviation
 FROM (
     SELECT game_skater_stats.*,
@@ -61,6 +61,27 @@ WHERE game.season = 20152016
       OR   game.home_team_id = 5)
       ;
 ''')
+
+skater_stats_2017_query = ('''
+SELECT skater_stats.*, team_info.abbreviation
+FROM (
+    SELECT game_skater_stats.*,
+       player_info.firstName,
+       player_info.lastName,
+       player_info.primaryPosition
+FROM game_skater_stats
+JOIN player_info ON game_skater_stats.player_id = player_info.player_id) skater_stats
+
+
+LEFT JOIN game ON skater_stats.game_id = game.game_id
+JOIN team_info ON skater_stats.team_id = team_info.team_id
+WHERE game.season = 20162017
+      AND game.type = 'P'
+      AND (game.away_team_id = 5
+      OR   game.home_team_id = 5)
+      ;
+''')
+
 
 goals_query = ('''
 SELECT  game_goals.*, 
