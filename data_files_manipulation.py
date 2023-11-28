@@ -19,6 +19,7 @@ def move_all_files(old_dir, new_dir):
         new_location = Path(new_dir)
         for file in files:
                 shutil.move(file, new_location)
+        os.chdir('..')
 
 
 
