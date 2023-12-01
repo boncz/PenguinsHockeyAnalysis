@@ -18,7 +18,7 @@ Now, armed with an eagerness to understand the intricacies of hockey and spurred
 ## Objective and Scope
 This short analysis will delve into the specifics of the 2016 and 2017 playoff seasons, meticulously examining the contributions of Carl Hagelin, Nick Bonino, and Phil Kessel. 
 
-The project is limited in scope to members of the Pittsburgh Penguin during the 2015-2016 playoff games.
+The project is limited in scope to members of the Pittsburgh Penguins during the 2015-2016 playoff games.
 
 New to hockey? No problem! 
 [Click here for everything you need to know about hockey to understand the project.](data_dictionary.md)
@@ -53,7 +53,7 @@ This project aims to provide a comprehensive yet beginner-friendly exploration, 
 
 To conduct this analysis, I utilized comprehensive data from [Hockey Reference](https://www.hockey-reference.com/). This source provided rich datasets encompassing playoff rosters to advanced statistics, offering a view of player performances and team dynamics for each playoff year.
 
-Additionally, I incorporated data from [NHL Game Data](https://www.kaggle.com/datasets/martinellis/nhl-game-data), a valuable resource comprised of a collection of CSV files containing detailed game, team, and player statistics. This Kaggle dataset includes information on player-level metrics, game events (including (x,y) coordinates), and team-level summaries, enabling a detailed examination of every aspect of the game.
+Additionally, I incorporated data from [NHL Game Data](https://www.kaggle.com/datasets/martinellis/nhl-game-data), a valuable resource comprised of a collection of CSV files containing detailed game, team, and player statistics. This Kaggle dataset includes information on player-level metrics, game events, play locations, and team-level summaries, enabling a detailed examination of every aspect of the game.
 
 
 
@@ -159,13 +159,13 @@ The exploration of the HBK line's dynamics in the 2017 playoffs unravels a story
 ### Conclusion
 The analysis of the HBK line's performance during the 2016 and 2017 playoffs unfolds a multifaceted narrative, revealing the complex nature of player contributions and the ever-shifting landscape of hockey strategy.
 
-2016 Playoffs: The HBK line emerged as a formidable force, showcasing a balance of offensive prowess, defensive acumen, and playmaking abilities. Their impact on goals, advanced metrics, and overall team success solidified their significance in the Penguins' Stanley Cup victory.
+2016 Playoffs: The HBK line was a formidable force, showcasing a balance of offensive prowess, defensive acumen, and playmaking abilities. Their impact on goals, advanced metrics, and overall team success solidified their significance in the Penguins' Stanley Cup victory.
 
 2017 Playoffs: A narrative of evolution and adaptation takes center stage as the HBK line's goal contributions diminish. The shift prompts inquiries into altered team strategies and the interplay between lines, opening avenues for deeper exploration into the nuances of offensive game plays.
 
 These analyses serve as a testament to the complexity of hockey, where success is orchestrated through a symphony of individual performances and strategic adaptations. 
 
-As the HBK line's story unfolds across two playoff seasons, it invites continued exploration, discussion, and appreciation for the intricate dynamics that propel teams to championship glory in the world of hockey.
+As the HBK line's story unfolds across two playoff seasons, it invites continued investigation, discussion, and appreciation for the intricate dynamics that propel teams to championship glory in the world of hockey.
 
 
 
