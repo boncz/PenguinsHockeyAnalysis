@@ -6,7 +6,7 @@
 
 # Exploring the Influence of the HBK Line on the Pittsburgh Penguins' 2016 and 2017 Stanley Cup Wins
 ## Motivation
-As a newcomer to the world of hockey and enthusiast of the Pittsburgh Penguins, the team's storied history has left an indelible mark. While the Penguins have claimed the Stanley Cup only five times in their history (1991, 1992, 2009, 2016, and 2017), the recent back-to-back victories in 2016 and 2017 are particularly intriguing.
+As a newcomer to the world of hockey and enthusiast of the Pittsburgh Penguins, the team's storied history has left an indelible mark. While the Penguins have claimed the Stanley Cup only five times (1991, 1992, 2009, 2016, and 2017), the recent back-to-back victories in 2016 and 2017 are particularly intriguing.
 
 Given my limited exposure to the sport, I've often heard passionate debates among fans about the driving force behind these last two victories. Surprisingly, it wasn't the usual suspects like Sidney Crosby or Evgeni Malkin that took center stage. Instead, rumors circulate that third line trio—Phil Kessel, Carl Hagelin, and Nick Bonino, known as the 'HBK Line'—was the heralded hero of these championships.
 
@@ -51,7 +51,7 @@ This project aims to provide a comprehensive yet beginner-friendly exploration, 
 
 ## Data Sources
 
-To conduct a thorough analysis of the Pittsburgh Penguins' 2016 and 2017 Stanley Cup victories, I utilized comprehensive data from [Hockey Reference](https://www.hockey-reference.com/). This source provided rich datasets encompassing playoff rosters to advanced statistics, offering a view of player performances and team dynamics for the playoff years as a whole.
+To conduct this analysis, I utilized comprehensive data from [Hockey Reference](https://www.hockey-reference.com/). This source provided rich datasets encompassing playoff rosters to advanced statistics, offering a view of player performances and team dynamics for each playoff year.
 
 Additionally, I incorporated data from [NHL Game Data](https://www.kaggle.com/datasets/martinellis/nhl-game-data), a valuable resource comprised of a collection of CSV files containing detailed game, team, and player statistics. This Kaggle dataset includes information on player-level metrics, game events (including (x,y) coordinates), and team-level summaries, enabling a detailed examination of every aspect of the game.
 
@@ -65,17 +65,24 @@ Additionally, I incorporated data from [NHL Game Data](https://www.kaggle.com/da
 ### Data Processing and Transformation
 
 #### Hockey Reference Data:
-I structured the Hockey Reference data to align with the analytical needs of this project. Utilizing Python's pandas library, I cleaned and organized the data, ensuring consistency across different tables. The advanced statistics, playoff rosters, and game-level details were seamlessly integrated into a coherent dataset, forming the foundation for in-depth analyses.
+Information gained from Hockey Reference was restructured to align with the analytical needs of this project: 
+- The data was cleaned and organized using the python Pandas library to ensure consistency across different dataFrames. 
+- The advanced statistics and playoff rosters were seamlessly integrated into a coherent dataset that formed the foundation for in-depth analyses.
 
 #### Kaggle NHL Game Data:
-The Kaggle dataset, comprising CSV files, presented a unique opportunity to enhance the granularity of our analysis. To facilitate efficient querying and manipulation, I transformed this collection of CSV files into a relational database using SQLite. 
+The Kaggle dataset comprised of CSV files presented a unique opportunity to enhance the granularity of our analysis. To facilitate efficient querying and manipulation, I transformed this collection of CSV files into a relational database using SQLite. 
 
-The resulting SQL database, named 'NHL_data.db,' serves as a centralized repository, streamlining the retrieval of specific data points and enabling complex cross-referencing between different aspects of the game.
+The resulting SQL database serves as a centralized repository, streamlining the retrieval of specific data points and enabling complex cross-referencing between different aspects of the game.
 
 
 ### Replicating the Analysis
 
-To replicate the analysis and explore the project's findings, follow the steps outlined in the 'Getting Started' section of this README. This includes cloning the repository, setting up a virtual environment, and running the 'create_SQL_db' notebook to generate the 'NHL_data.db' SQL database.
+To replicate the analysis and explore the project's findings on your device, follow the steps outlined in the 'Getting Started' section of this README. 
+
+This includes :
+- cloning the repository 
+- setting up a virtual environment
+- running the [create_SQL_db](create_sql_db.ipynb) notebook to generate the 'NHL_data.db' SQLite database.
 
 Each playoff year study is hosted in it's own jupyter notebook. Though each notebook stands alone in its analysis, it is recommended to run in order:
 - [2016 Playoff Analysis](Pens_playoff_analysis_2016.ipynb)
@@ -89,27 +96,30 @@ Additional files available in the repo:
 
 
 ## Getting Started
-To replicate this project, follow these steps:
+### To replicate this project:
 
 1. Clone the repository to your machine:
     ```bash
     git clone https://github.com/boncz/PenguinsHockeyAnalysis.git
     ```
 2. Create and activate a virtual environment, and install required packages from 'requirements.txt':
-    - **Linux/Mac:**
-      ```bash
-      python3 -m venv venv
-      source venv/bin/activate
-      pip install -r requirements.txt
-      deactivate
+- **Linux/Mac:**
+  ```bash
+  python3 -m venv venv
+  source venv/bin/activate
+  pip install -r requirements.txt
+  ```
+- **GitBash:**
+  ```bash
+  python -m venv venv
+  source venv/Scripts/activate
+  pip install -r requirements.txt
+  ```
+3. Once complete, be sure to deactivate:
+    ```
+    deactivate
       ```
-    - **GitBash:**
-      ```bash
-      python -m venv venv
-      source venv/Scripts/activate
-      pip install -r requirements.txt
-      deactivate
-      ```
+
 3. Run the [create_sql_db](create_sql_db.ipynb) notebook to unzip data files and create 'NHL_data.db' for future SQL queries.
 4. Ensure that all data files have successfully moved to the main project directory before running the playoff analysis notebooks. 
 
@@ -140,18 +150,22 @@ In scoring, the HBK line's prowess is evident, with Kessel's goal-scoring, Bonin
 The HBK line's exceptional performance challenges conventional expectations, showcasing the synergy of their individual skills and collective contributions. Their significant role in the Penguins' 2016 Stanley Cup victory underscores the importance of well-balanced lines and the unpredictable nature of player impact in hockey.
 
 ### 2017 Playoffs: A Narrative of Evolution
-In contrast to the previous year, the 2017 Playoffs showcase a shift in goal contributions. The HBK line accounted for only 20.3% of the team's total goals. A comparative analysis against the first and second lines further emphasizes this shift. The first line, led by Crosby, Sheary, and Guentzel, secured a substantial 33.3% of all goals, challenging the conventional progression observed across hockey lines. The HBK line's reduced goal contribution invites further exploration into the intricacies of offensive strategies and interactions between lines.
+In contrast to the previous year, the 2017 Playoffs showcase a shift in goal contributions. The HBK line accounted for only 20.3% of the team's total goals. A comparative analysis against the first and second lines further emphasizes this shift. 
+
+The first line, led by Crosby, Sheary, and Guentzel, secured a substantial 33.3% of all goals, presenting the conventional progression observed across hockey lines. The HBK line's reduced goal contribution invites further exploration into the intricacies of offensive strategies and interactions between lines.
 
 The exploration of the HBK line's dynamics in the 2017 playoffs unravels a story of adaptation and transformation. From shifts in shooting efficiency to recalibrated assist landscapes and dispersed advanced metrics, the line's journey in 2017 beckons researchers to delve deeper into the factors influencing player performances and their nuanced impact on team success within the dynamic realm of hockey.
 
 ### Conclusion
-The analysis of the HBK line's performance during the 2016 and 2017 playoffs unfolds a multifaceted narrative, revealing the dynamic nature of player contributions and the ever-shifting landscape of hockey dynamics.
+The analysis of the HBK line's performance during the 2016 and 2017 playoffs unfolds a multifaceted narrative, revealing the complex nature of player contributions and the ever-shifting landscape of hockey strategy.
 
 2016 Playoffs: The HBK line emerged as a formidable force, showcasing a balance of offensive prowess, defensive acumen, and playmaking abilities. Their impact on goals, advanced metrics, and overall team success solidified their significance in the Penguins' Stanley Cup victory.
 
-2017 Playoffs: A narrative of evolution and adaptation takes center stage as the HBK line's goal contributions diminish. The shift prompts inquiries into altered team strategies and the interplay between lines, opening avenues for deeper exploration into the nuances of offensive dynamics.
+2017 Playoffs: A narrative of evolution and adaptation takes center stage as the HBK line's goal contributions diminish. The shift prompts inquiries into altered team strategies and the interplay between lines, opening avenues for deeper exploration into the nuances of offensive game plays.
 
-These analyses serve as a testament to the complexity of hockey, where success is orchestrated through a symphony of individual performances and strategic adaptations. As the HBK line's story unfolds across two playoff seasons, it invites continued exploration, discussion, and appreciation for the intricate dynamics that propel teams to championship glory in the world of hockey.
+These analyses serve as a testament to the complexity of hockey, where success is orchestrated through a symphony of individual performances and strategic adaptations. 
+
+As the HBK line's story unfolds across two playoff seasons, it invites continued exploration, discussion, and appreciation for the intricate dynamics that propel teams to championship glory in the world of hockey.
 
 
 
