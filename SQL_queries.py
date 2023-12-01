@@ -1,3 +1,4 @@
+#first basic dF query, provides player and game information for every game in the 2016 playoffs
 playoff_2016_data_query = ('''
 SELECT game_plays_trimmed.*,
        game_plays_players.*, 
@@ -19,6 +20,7 @@ WHERE game.type = 'P'
         );
 ''')
 
+#provides player/game information for every game in the 2017 playoffs
 playoff_2017_data_query = ('''
 SELECT game_plays_trimmed.*,
        game_plays_players.*, 
@@ -41,7 +43,7 @@ WHERE game.type = 'P'
 ''')
 
 
-
+#compiles more advanced stats for the 2016 playoffs
 skater_stats_2016_query = ('''
 SELECT skater_stats.*, team_info.abbreviation
 FROM (
@@ -62,6 +64,7 @@ WHERE game.season = 20152016
       ;
 ''')
 
+#compiles more advanced stats for the 2017 playoffs
 skater_stats_2017_query = ('''
 SELECT skater_stats.*, team_info.abbreviation
 FROM (
@@ -82,7 +85,7 @@ WHERE game.season = 20162017
       ;
 ''')
 
-
+#written but not utilized in this project due to lack of time. Saving here for future research use.
 goals_query = ('''
 SELECT  game_goals.*, 
         game_plays_trimmed.event,
@@ -100,6 +103,7 @@ JOIN player_info ON game_plays_players.player_id = player_info.player_id
 ;
 ''')
 
+#gathers team name and abbreviation information for all teams in the NHL
 get_abb_query = ('''
 SELECT  team_info.team_id,
         team_info.abbreviation
