@@ -8,7 +8,7 @@
 ## Motivation
 As a newcomer to the world of hockey and enthusiast of the Pittsburgh Penguins, the team's storied history has left an indelible mark. While the Penguins have claimed the Stanley Cup only five times (1991, 1992, 2009, 2016, and 2017), the recent back-to-back victories in 2016 and 2017 are particularly intriguing.
 
-Given my limited exposure to the sport, I've often heard passionate debates among fans about the driving force behind these last two victories. Surprisingly, it wasn't the usual suspects like Sidney Crosby or Evgeni Malkin that took center stage. Instead, rumors circulate that third line trio—Phil Kessel, Carl Hagelin, and Nick Bonino, known as the 'HBK Line'—was the heralded hero of these championships.
+Given my limited exposure to the sport, I've often heard passionate debates among fans about the driving force behind these last two victories. Surprisingly, it wasn't the usual suspects like Sidney Crosby or Evgeni Malkin that took center stage. Instead, rumors circulate that third line trio—Phil Kessel, Carl Hagelin, and Nick Bonino, known as the 'HBK Line'—were the heralded heros of these championships.
 
 Now, armed with an eagerness to understand the intricacies of hockey and spurred by the curiosity of whether this claim holds water, I embark on a journey of exploration. The goal is to unravel the mysteries of the HBK Line's influence during the 2016 and 2017 playoff seasons, where these victories marked not only significant milestones in the Penguins' history but also the last triumphs to date.
 
@@ -18,7 +18,7 @@ Now, armed with an eagerness to understand the intricacies of hockey and spurred
 ## Objective and Scope
 This short analysis will delve into the specifics of the 2016 and 2017 playoff seasons, meticulously examining the contributions of Carl Hagelin, Nick Bonino, and Phil Kessel. 
 
-The project is limited in scope to members of the Pittsburgh Penguins during the 2015-2016 playoff games.
+The project is limited in scope to members of the Pittsburgh Penguins during the 2015-2016 and 2016-2017 seasons' playoff games.
 
 New to hockey? No problem! 
 [Click here for everything you need to know about hockey to understand the project.](data_dictionary.md)
@@ -46,12 +46,12 @@ In this beginner-friendly exploration of the Pittsburgh Penguins' 2016 and 2017 
    - **Were certain players consistently impactful throughout both playoff years, or did performance vary significantly from year to year?**
      - Evaluate player consistency across different statistical metrics to identify reliable contributors during each of the Penguins' championship runs.
 
-This project aims to provide a comprehensive yet beginner-friendly exploration, using visualizations as a tool to unravel the intricacies of player performances and their collective impact on the team's success.
+This project aims to provide a comprehensive yet beginner-friendly experience, using visualizations as a tool to unravel the intricacies of player performances and their collective impact on the team's success.
 
 
 ## Data Sources
 
-To conduct this analysis, I utilized comprehensive data from [Hockey Reference](https://www.hockey-reference.com/). This source provided rich datasets encompassing playoff rosters to advanced statistics, offering a view of player performances and team dynamics for each playoff year.
+To conduct this analysis, I utilized comprehensive data from [Hockey Reference](https://www.hockey-reference.com/). This source provided rich datasets encompassing playoff rosters and advanced statistics, offering a view of player performances and team dynamics for each playoff year.
 
 Additionally, I incorporated data from [NHL Game Data](https://www.kaggle.com/datasets/martinellis/nhl-game-data), a valuable resource comprised of a collection of CSV files containing detailed game, team, and player statistics. This Kaggle dataset includes information on player-level metrics, game events, play locations, and team-level summaries, enabling a detailed examination of every aspect of the game.
 
@@ -92,7 +92,7 @@ Additional files available in the repo:
 - [Demonstration of how I pre-trimmed the NHL data-set before use](trim_game_plays.ipynb)
 - [SQL queries used throughout the analysis](SQL_queries.py)
 - [Functions I wrote for file manipulation](data_files_manipulation.py)
-
+- [An original data relationship map was provided from NHL data](/ReadMeImages/table_relationships.JPG)
 
 
 ## Getting Started
