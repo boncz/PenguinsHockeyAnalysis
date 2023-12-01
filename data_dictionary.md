@@ -1,6 +1,4 @@
-# Data Dictionary
-
-## Hockey Basics
+# Hockey Basics
 
 ### Player Positions
 
