@@ -10,7 +10,6 @@ executing==2.0.1
 fastjsonschema==2.18.1
 fonttools==4.44.0
 fqdn==1.5.1
-hockey-rink==1.0.2
 idna==3.4
 ipykernel==6.26.0
 ipython==8.17.2
